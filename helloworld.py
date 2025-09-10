@@ -7,6 +7,14 @@ print ("Enter your first name: ")
 firstname = input ()
 
 print ("Enter your age: ")
-age = input()
+age = int(input())
 
-print ("Hello, " + lastname + " " + firstname + "!" "Your age is" + " " + age + ".")
+print ("Enter your height: ")
+height = float(input())
+
+print (f"Hii {lastname} {firstname}! Your age is {age}. You are {height} tall")
+
+print(type(lastname))
+print(type(age))
+print(age + 2)
+print(height + 6.548)
