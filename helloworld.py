@@ -5,5 +5,8 @@ lastname = input ()
 
 print ("Enter your first name: ")
 firstname = input ()
-print ("Hello, " + lastname + " " + firstname + "!")
-print (f"hello {lastname} {firstname} !")
+
+print ("Enter your age: ")
+age = input()
+
+print ("Hello, " + lastname + " " + firstname + "!" "Your age is" + " " + age + ".")
