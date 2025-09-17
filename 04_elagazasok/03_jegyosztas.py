@@ -17,4 +17,5 @@ elif 50<= pont <=64:
     print("Elégséges")
 elif 0<= pont <=49:
     print("Elégtelen")
-    
+else :
+    print("Hibás formátumot adtál meg!")
